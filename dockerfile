@@ -9,4 +9,4 @@ WORKDIR /src/app
 COPY server/. /src/app/
 RUN pip3 install --requirement requirements.txt
 EXPOSE 3000
-CMD [ "python3 app.py && npx webpack -d --watch]
+CMD [ "python3 server/app.py && cd client && npm install"]
