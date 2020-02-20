@@ -24,10 +24,10 @@ To start using pythonserver:
 
 To build and deploy a docker image:
 
-* Run `docker build -t _yourimagename_:_yourimageversion_ .`
-* Deploy a container by running `docker run -p 5000:5000 _yourimageID_`
+* Run `docker build -t yourimagename:yourimageversion .`
+* Deploy a container by running `docker run -p 5000:5000 yourimageID`
 * Note that by default the Flask server runs on `port 5000`
-* The [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) repo is a helpful guide for various Docker questions.
+* The [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) repo is a helpful guide for various Docker questions
 
 ## License
 
