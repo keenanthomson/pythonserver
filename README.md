@@ -27,7 +27,7 @@ To build and deploy a docker image:
 * Run `docker build -t _yourimagename_:_yourimageversion_ .`
 * Deploy a container by running `docker run -p 5000:5000 _imageID_`
 * Note that port 5000 is the Flask server's default
-* This is a helpful guide for various Docker questions: https://github.com/wsargent/docker-cheat-sheet
+* The [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) repo is a helpful guide for various Docker questions.
 
 ## License
 
