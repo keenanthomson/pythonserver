@@ -1,7 +1,7 @@
 # pythonserver
 Core setup for building a Python backend and React frontend app. After installing dependencies and starting the app you can immediately begin serving static files from a Flask server to a web client, with the option to build and deploy a Docker image.
 
-This repo is intended for development.
+This repo is intended for development and must be reconfigured for production.
 
 ## Prerequisites
 
@@ -25,8 +25,8 @@ To start using pythonserver:
 To build and deploy a docker image:
 
 * Run `docker build -t _yourimagename_:_yourimageversion_ .`
-* Deploy a container by running `docker run -p 5000:5000 _imageID_`
-* Note that port 5000 is the Flask server's default
+* Deploy a container by running `docker run -p 5000:5000 _yourimageID_`
+* Note that by default the Flask server runs on `port 5000`
 * The [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet) repo is a helpful guide for various Docker questions.
 
 ## License
