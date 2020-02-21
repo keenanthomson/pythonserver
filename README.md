@@ -33,4 +33,4 @@ To build and deploy a docker image:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+[MIT License](https://github.com/keenanthomson/pythonserver/blob/master/LICENSE.md)
