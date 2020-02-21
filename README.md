@@ -22,7 +22,7 @@ To start using pythonserver:
 
 * Start webpack from the `client` directory by running `npm run build-dev`
 * Start the server from the root directory with `python3 server/app.py`
-* Navigate to `http://localhost:5000/index.html` to send a request to your server
+* Navigate to `http://localhost:5000/index.html` to send a request to the server
 
 To build and deploy a docker image:
 
