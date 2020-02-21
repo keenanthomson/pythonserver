@@ -1,4 +1,4 @@
-![python+react_image](https://random-kt.s3.us-east-2.amazonaws.com/Screen+Shot+2020-02-20+at+6.43.47+PM.png)
+![python+react_image](https://random-kt.s3.us-east-2.amazonaws.com/Screen+Shot+2020-02-21+at+8.21.39+AM.png)
 
 # pythonserver
 Core setup for building a Python backend and React frontend app. After installing dependencies and starting the app you can immediately begin serving static files from a Flask server to a web client, with the option to build and deploy a Docker image.
